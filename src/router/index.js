@@ -8,6 +8,10 @@ import My from '@/pages/My'
 import Personaldata from '@/pages/Personaldata'
 import Statement from '@/pages/Statement'
 import Agency from '@/pages/Agency'
+import Safety from '@/pages/Safety'
+import Personaloverview from '@/pages/Personaloverview'
+import Personalstatements from '@/pages/Personalstatements'
+
 
 
 
@@ -66,7 +70,22 @@ export default new Router({
       path:'/agency',
       name:'Agency',
       component:Agency
+    },
+    {
+      path:'/safety',
+      name:'Safety',
+      component:Safety
+    },
+    {
+      path:'/personaloverview',
+      name:'Personaloverview',
+      component:Personaloverview
+    },
+    {
+      path:'/personalstatements',
+      name:'Personalstatements',
+      component:Personalstatements
     }
-    
+      
   ]
 })

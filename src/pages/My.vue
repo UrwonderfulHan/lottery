@@ -38,7 +38,6 @@
 
         <div class="teshu"></div>
 
-
         <router-link to="statement">
             <div class="main_list">
                 <div><img src="../assets/baobiao.png"></div> 
@@ -52,10 +51,14 @@
                 <div><span>代理中心</span></div>
             </div>
         </router-link>
-        <div class="main_list">
-            <div><img src="../assets/anquan.png"></div> 
-            <div><span>安全中心</span></div>
-        </div>
+
+        <router-link to="safety">
+            <div class="main_list">
+                <div><img src="../assets/anquan.png"></div> 
+                <div><span>安全中心</span></div>
+            </div>
+        </router-link>
+
         <div class="main_list">
             <div><img src="../assets/qingli.png"></div> 
             <div><span>清理缓存</span></div>

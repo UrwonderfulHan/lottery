@@ -7,14 +7,20 @@
     />
 
 <ul class="statement_list">
-    <li>
-        <van-icon name="user-circle-o" />
-        <span>个人总览</span>
-    </li>
-    <li>
-        <van-icon name="cashier-o" />
-        <span>个人报表</span>
-    </li>
+    <router-link to="personaloverview">
+        <li>
+            <van-icon name="user-circle-o" />
+            <span>个人总览</span>
+        </li>
+    </router-link>
+
+    <router-link to="personalstatements">
+        <li>
+            <van-icon name="cashier-o" />
+            <span>个人报表</span>
+        </li>
+    </router-link>
+
     <li>
         <van-icon name="records" />
         <span>投注记录</span>

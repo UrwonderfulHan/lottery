@@ -1,60 +1,43 @@
 <template>
 <div class=''>
     <van-nav-bar
-            title="代理中心"
+            title="安全中心"
             :border="false"
             left-arrow
             @click-left="onClickLeft"
     />
-    <img src="../assets/agency_pic.png" alt="">
+   
 
     <ul class="ullist">
         <li>
-            <span>代理中心</span>
+            <span>登录密码</span>
             <van-icon name="arrow" />
         </li>
         <li>
-            <span>代理总览</span>
+            <span>资金密码</span>
             <van-icon name="arrow" />
         </li>
         <li>
-            <span>团队报表</span>
+            <span>银行卡管理</span>
             <van-icon name="arrow" />
         </li>
-        <li>
-            <span>下级开户</span>
-            <van-icon name="arrow" />
-        </li>
-        <li>
-            <span>用户列表</span>
-            <van-icon name="arrow" />
-        </li>
-        <li>
-            <span>投注明细</span>
-            <van-icon name="arrow" />
-        </li>
-        <li>
-            <span>交易明细</span>
-            <van-icon name="arrow" />
-        </li>
+        
     </ul>
 </div>
 </template>
 
 <script>
 export default {
-components: {},
 data() {
-return {
+    return {
 
-};
+    };
 },
-methods:{
+methods: {
     onClickLeft(){
         this.$router.go(-1)
     }
 }
-
 }
 </script>
 <style  scoped>
@@ -71,10 +54,7 @@ methods:{
     font-size: 20px;
     color: #fff;
 }
-img{
-    height: 25vh;
-    width: 100vw
-}
+
 .ullist li{
     height: 50px;
     line-height: 50px;
