@@ -21,14 +21,21 @@
         </li>
     </router-link>
 
-    <li>
-        <van-icon name="records" />
-        <span>投注记录</span>
-    </li>
+     <router-link to="bettingrecord">
+        <li>
+            <van-icon name="records" />
+            <span>投注记录</span>
+        </li>
+    </router-link>
+
+
+    <router-link to="rechargerecord">
     <li>
         <van-icon name="after-sale" />
         <span>充值记录</span>
     </li>
+    </router-link>
+    
     <li>
         <van-icon  name="cash-back-record" />
         <span>提现记录</span>

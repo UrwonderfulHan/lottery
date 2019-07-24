@@ -11,7 +11,9 @@ import Agency from '@/pages/Agency'
 import Safety from '@/pages/Safety'
 import Personaloverview from '@/pages/Personaloverview'
 import Personalstatements from '@/pages/Personalstatements'
-
+import Bettingrecord from '@/pages/Bettingrecord'
+import Bettingdetails from '@/pages/Bettingdetails'
+import Rechargerecord from '@/pages/Rechargerecord'
 
 
 
@@ -85,7 +87,23 @@ export default new Router({
       path:'/personalstatements',
       name:'Personalstatements',
       component:Personalstatements
+    },
+    {
+      path:'/bettingrecord',
+      name:'Bettingrecord',
+      component:Bettingrecord
+    },
+    {
+      path:'/bettingdetails',
+      name:'Bettingdetails',
+      component:Bettingdetails
+    },
+    {
+      path:'/rechargerecord',
+      name:'Rechargerecord',
+      component:Rechargerecord
     }
-      
+    
+    
   ]
 })
