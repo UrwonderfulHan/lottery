@@ -9,14 +9,20 @@
     <img src="../assets/agency_pic.png" alt="">
 
     <ul class="ullist">
-        <li>
-            <span>代理中心</span>
-            <van-icon name="arrow" />
-        </li>
-        <li>
-            <span>代理总览</span>
-            <van-icon name="arrow" />
-        </li>
+        <router-link to="agencyexplain">
+            <li>
+                <span>代理说明</span>
+                <van-icon name="arrow" />
+            </li>
+        </router-link>
+
+        <router-link to="agencyoverview">
+            <li>
+                <span>代理总览</span>
+                <van-icon name="arrow" />
+            </li>
+        </router-link>
+
         <li>
             <span>团队报表</span>
             <van-icon name="arrow" />

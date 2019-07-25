@@ -30,8 +30,11 @@ personaldata 		    个人资料
 statement    		    报表管理
 agency			        代理中心
 Safety			        安全中心
-Personaloverview    	个人总览
-Personalstatements  	个人报表
-Bettingrecord           投注记录
-Bettingdetails          注单详情
-Rechargerecord          充值记录
+Personal overview    	个人总览
+Personal statements  	个人报表
+Betting record          投注记录
+Betting details         注单详情
+Recharge record         充值记录
+Withdraw record         提现记录
+Agency explain          代理说明
+Agency overview         代理总览

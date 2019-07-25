@@ -14,7 +14,10 @@ import Personalstatements from '@/pages/Personalstatements'
 import Bettingrecord from '@/pages/Bettingrecord'
 import Bettingdetails from '@/pages/Bettingdetails'
 import Rechargerecord from '@/pages/Rechargerecord'
-
+import Withdrawrecord from '@/pages/Withdrawrecord'
+import Agencyexplain from '@/pages/Agencyexplain'
+import Agencyoverview from '@/pages/Agencyoverview'
+ 
 
 
 
@@ -102,6 +105,22 @@ export default new Router({
       path:'/rechargerecord',
       name:'Rechargerecord',
       component:Rechargerecord
+    },
+    {
+      path:'/withdrawrecord',
+      name:'Withdrawrecord',
+      component:Withdrawrecord
+    },
+    {
+      path:'/agencyexplain',
+      name:'Agencyexplain',
+      component:Agencyexplain
+    }
+    ,
+    {
+      path:'/agencyoverview',
+      name:'Agencyoverview',
+      component:Agencyoverview
     }
     
     

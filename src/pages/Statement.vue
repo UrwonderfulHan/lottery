@@ -36,10 +36,13 @@
     </li>
     </router-link>
     
+    
+     <router-link to="withdrawrecord">
     <li>
         <van-icon  name="cash-back-record" />
         <span>提现记录</span>
     </li>
+     </router-link>
 </ul>
 
 </div>

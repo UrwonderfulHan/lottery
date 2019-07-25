@@ -1,16 +1,16 @@
 <template>
 <div class='bigbox'>
      <van-nav-bar
-        title="充值记录"
+        title="提现记录"
         left-arrow
         @click-left="onClickLeft"
     />
     <ul class="top">
         <li>
-            充值时间
+            提现时间
         </li>
         <li>
-            充值金额
+            提现金额
         </li>
         <li>
             状态
@@ -22,8 +22,8 @@
             <van-collapse v-model="activeName" accordion>
                 <van-collapse-item title="2019-07-23" name="1">
                     <p>订单编号：3406141427596423713</p>
-                    <span>充值方式：支付宝</span>
-                    <span>充值金额：100</span>
+                    <span>提现方式：支付宝</span>
+                    <span>提现金额：100</span>
                     
                 </van-collapse-item>
                 <van-collapse-item title="标题2" name="2">内容</van-collapse-item>
@@ -43,7 +43,7 @@
                      <b>2</b>
                 </div>
                 <div>
-                     <span>充值成功</span>
+                     <span>提现成功</span>
                      <b>2</b>
                 </div>
                
