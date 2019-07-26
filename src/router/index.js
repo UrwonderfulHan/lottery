@@ -17,7 +17,10 @@ import Rechargerecord from '@/pages/Rechargerecord'
 import Withdrawrecord from '@/pages/Withdrawrecord'
 import Agencyexplain from '@/pages/Agencyexplain'
 import Agencyoverview from '@/pages/Agencyoverview'
- 
+import Subordinate from '@/pages/Subordinate'
+import Recharge from '@/pages/Recharge'
+
+
 
 
 
@@ -121,6 +124,17 @@ export default new Router({
       path:'/agencyoverview',
       name:'Agencyoverview',
       component:Agencyoverview
+    },
+    {
+      path:'/subordinate',
+      name:'Subordinate',
+      component:Subordinate
+    }
+    ,
+    {
+      path:'/recharge',
+      name:'Recharge',
+      component:Recharge
     }
     
     

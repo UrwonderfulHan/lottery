@@ -27,10 +27,14 @@
             <span>团队报表</span>
             <van-icon name="arrow" />
         </li>
+
+        <router-link to="subordinate">
         <li>
             <span>下级开户</span>
             <van-icon name="arrow" />
         </li>
+        </router-link>
+
         <li>
             <span>用户列表</span>
             <van-icon name="arrow" />

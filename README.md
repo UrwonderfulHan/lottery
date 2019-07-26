@@ -38,3 +38,4 @@ Recharge record         充值记录
 Withdraw record         提现记录
 Agency explain          代理说明
 Agency overview         代理总览
+Recharge                充值

@@ -18,10 +18,16 @@
 
 
     <div class="box">
-        <div class="chongzhi">
-            <img src="../assets/chongzhi.png"/>
-            <span>充值</span>
-        </div>
+        
+       
+            <div class="chongzhi">
+                 <router-link to="recharge">
+                    <img src="../assets/chongzhi.png"/>
+                    <span>充值</span>
+                 </router-link>
+            </div>
+       
+
       <div class="tixian">
             <img src="../assets/tixian.png"/>
             <span>提现</span>
